@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://tmthan.com/wp-content/uploads/2015/10/a1dd81ac594b7b9b2d8034901131164a.jpeg"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://tmthan.com/wp-content/uploads/2015/10/a1dd81ac594b7b9b2d8034901131164a.jpeg"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <style>
+      @keyframes background-transform {
+        0% {
+          background-position: left;
+        }
+        50% {
+          background-position: right;
+        }
+        100% {
+          background-position: left;
+        }
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: -webkit-linear-gradient(
+          bottom right,
+          #96b6cc,
+          #89c9ce,
+          #d297d9,
+          #b1a2ce
+        );
+        background-size: 200%;
+        animation: background-transform 30s infinite;
+        overflow: hidden;
+        font-family: "Montserrat", sans-serif;
+      }
+      .wrap {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .block {
+        border-radius: 25px;
+        background: #ffffff99;
+        padding: 1rem;
+      }
+
+      @media screen and (min-width: 768px) {
+        .block {
+          padding: 5rem;
+        }
+      }
+      .line {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+      .icon-img {
+        width: 2rem;
+        height: 2rem;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .icon {
+        color: #d297d9;
+        height: 2rem;
+        width: 2rem;
+      }
+      .link {
+        color: #e90074;
+        text-decoration: none;
+      }
+      .comfortaa {
+        font-family: "Comfortaa", sans-serif;
+      }
+
+      .playwrite-it-moderna {
+        font-family: "Playwrite IT Moderna", cursive;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .button {
+        border-radius: 50px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: -webkit-linear-gradient(bottom right, #96b6cc, #89c9ce);
+        background-color: #b1a2ce;
+        color: white;
+        text-decoration: none;
+      }
+      .paragraph {
+        padding: 1rem 0;
+      }
+
+      .color-pink {
+        color: #d297d9;
+      }
+
+      .h1 {
+        font-size: 1.2rem;
+      }
+
+      .h2 {
+        font-size: 0.8rem;
+      }
+
+      @media screen and (min-width: 768px) {
+        .h1 {
+          font-size: 2rem;
+        }
+
+        .h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+    <title>Bio</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="block">
+        <h2 class="comfortaa h2">Tạo trang bio cá nhân với tên miền độc đáo</h2>
+        <h1 class="comfortaa text-center color-pink h1">taisaovayem.com</h1>
+        <p class="paragraph">
+          Bạn sẽ có ngay trang bio độc đáo với đường dẫn
+          <span style="color: #89c9ce">taisaovayem.com/</span
+          ><span class="playwrite-it-moderna color-pink">tencuaban</span>
+        </p>
+        <p class="paragraph">
+          Hãy gủi file bio của bạn về địa chỉ email:
+          <a href="mailto:why@taisaovayem.com" class="link"
+            >why@taisaovayem.com</a
+          >
+        </p>
+        <p class="paragraph">
+          <a class="button" href="demo.zip"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 4v12.25L17.25 11l.75.66l-6.5 6.5l-6.5-6.5l.75-.66L11 16.25V4zM3 19h1v2h15v-2h1v3H3z"
+              />
+            </svg>
+            <span>Tải xuống file mẫu</span>
+          </a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
